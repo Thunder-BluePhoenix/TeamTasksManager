@@ -4,4 +4,4 @@ Task Management for teams
 
 #### License
 
-mit
+mit# TeamTasksManager
