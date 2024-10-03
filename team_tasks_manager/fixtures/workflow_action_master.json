@@ -1,0 +1,30 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2024-10-03 17:04:59.449560",
+  "name": "In Progress",
+  "workflow_action_name": "In Progress"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2024-10-03 17:07:55.590694",
+  "name": "Completed",
+  "workflow_action_name": "Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2024-10-03 17:08:28.107013",
+  "name": "Invalid",
+  "workflow_action_name": "Invalid"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2024-10-03 17:15:53.607465",
+  "name": "Open",
+  "workflow_action_name": "Open"
+ }
+]

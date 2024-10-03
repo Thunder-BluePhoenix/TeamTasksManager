@@ -84,6 +84,7 @@ app_license = "mit"
 
 # before_install = "team_tasks_manager.install.before_install"
 # after_install = "team_tasks_manager.install.after_install"
+# after_install = "team_tasks_manager.setup.setup_workflow"
 
 # Uninstallation
 # ------------
@@ -143,6 +144,11 @@ app_license = "mit"
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 # 	}
+# }
+# doc_events = {
+#     "Task": {
+#         "validate": "team_tasks_manager.team_tasks_manager.doctype.task.task.validate_team_member"
+#     }
 # }
 
 # Scheduled Tasks
@@ -242,3 +248,12 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Workflow", "filters": [["name", "in", ["Task Workflow"]]]},
+    {"dt": "Workflow State", "filters": [["name", "in", ["Open", "In Progress", "Completed", "Invalid"]]]},
+    {"dt": "Workflow Action Master", "filters": [["name", "in", ["Open", "In Progress", "Completed", "Invalid"]]]},
+    {"dt": "Role", "filters": [["name", "in", ["Team Member", "Team Manager"]]]},
+    {"dt": "Custom DocPerm", "filters": [["parent", "in", ["Task"]]]},
+    # {"dt": "Dashboard", "filters": [["name", "in", ["Team Tasks Overview"]]]},
+    # {"dt": "Dashboard Chart", "filters": [["name", "in", ["Tasks per Team", "Task Status Distribution"]]]}
+]

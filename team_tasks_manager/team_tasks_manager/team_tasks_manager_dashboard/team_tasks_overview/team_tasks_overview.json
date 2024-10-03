@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Tasks per Team",
+   "width": "Half"
+  },
+  {
+   "chart": "Task Status Distribution",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-10-03 16:47:35.594089",
+ "dashboard_name": "Team Tasks Overview",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-10-03 16:47:35.594089",
+ "modified_by": "Administrator",
+ "module": "Team Tasks Manager",
+ "name": "Team Tasks Overview",
+ "owner": "Administrator"
+}
